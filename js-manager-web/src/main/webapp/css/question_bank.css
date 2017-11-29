@@ -1,0 +1,15 @@
+@media screen and (min-width: 1178px){#app{padding:10px 40px;}}
+@media screen and (max-width: 1177px){#app{padding:10px 10px;}}
+.table{margin-bottom: 0px;}
+.boxed{margin-bottom: 20px;}
+.boxed .boxed-inner{background: #fff;border-top: 1px solid #ccc;border-bottom-left-radius: 1px;border-bottom-right-radius: 1px;color: #666;
+    font-size: 14px;border: 1px #d8d8d8 solid; box-shadow: 0 0px 15px rgba(0,0,0,0.1);border-radius: 3px;}
+.sort-list input[type="text"]{width: 40px;text-align: center;border-radius: 12px;border:1px solid #ddd;}
+.sort-list .btn-group a:nth-child(2){background: #dedede}
+.bottom-btn-group a{background: #efefef;color: #333;}
+.bottom-btn-group a.btn-danger{background: rgb(244,67,54);color: #fff}
+.bottom-btn-group a:hover,.pagination>li>a:hover{box-shadow: 0 2px 5px rgba(0,0,0,0.23), 1px 3px 15px rgba(0,0,0,0.19);}
+.marginbottom{margin-bottom: 10px;}
+/*检索*/
+.form-inline input[type='text']{border:1px solid #ccc;padding:4px 6px;transition: all .2s;border-radius: 3px;}
+.form-inline input[type='submit']{padding:4px 12px;margin-left: 10px;}

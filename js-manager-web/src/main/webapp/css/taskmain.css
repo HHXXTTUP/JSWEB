@@ -1,0 +1,56 @@
+body{background: #fff;}
+hr{border-color: #666;margin:6px 0;}
+.header{margin-bottom:0;border-bottom:none;padding-bottom: 0;}
+/*左侧任务选项*/
+.activeTask{box-shadow: 0px 0px 8px #000;}
+#app .taskselect{float: left;width: 20%;}
+#app .taskselect .resert{text-align: center;margin-top: 10px;display: flex;flex-flow: row nowrap;justify-content: center;align-items: center;}
+#app .taskselect .tasklist{margin-bottom: 20px;}
+#app .taskselect .tasklist>a{display: block;width: 80%;height:45px;line-height:35px;background: #efefef;border:1px solid rgb(146, 163, 194);margin:0 auto;font-size: 18px;margin-top: 20px;position: relative;overflow: hidden;}
+#app .taskselect .tasklist>a>b:first-child{height:100%;	background: rgb(146, 163, 194);padding:4px 0;position: absolute;top: 0;left: 0;}
+#app .taskselect .tasklist>a>b:last-child{width: 100%;height:100%;padding:4px 6px;color: #466088;position: absolute;top: 0;left: 0;}
+/*左侧企业选项*/
+#app .taskselect .companylist{position: relative;}
+#app .taskselect .companylist i{position: absolute;top: 70px;left: 48%;color: #999;}
+#app .taskselect .companylist .search{width: 80%;height: 30px;line-height: 30px;border-radius: 4px;margin: 30px 10%;border:2px solid #999;padding-left: 6px;}
+#app .taskselect .companylist .companybtn{display:block;width: 80%;padding:4px 0;margin: 0 auto;}
+/*右侧首页任务栏*/
+#app .content{float: left;width: 80%;}
+#app .content .remark-content{margin-bottom: 16px;}
+#app .content .remark-content .ultable li,#app .content .preson-content ul li,#app .notepage .recordbox ul li{display: flex;flex-flow: row nowrap;justify-content: space-around;align-items: center;border-bottom: 1px solid #ddd;padding: 6px 0; }
+#app .content .remark-content .ultable:last-child,#app .notepage .recordbox .ultable_content{height:210px;overflow-y: auto;}
+#app .content .remark-content .ultable li span,#app .content .preson-content ul li span,#app .notepage .recordbox ul li span{width: 20%;text-align: center;}
+#app .content .item-content .r_out {margin: 0 auto;border:4px solid rgb(146, 163, 194); background:#efefef; box-shadow:3px 3px 5px #bfbfbf; -webkit-box-shadow:3px 3px 5px #bfbfbf; -moz-box-shadow:3px 3px 5px #bfbfbf; -ms-box-shadow:3px 3px 5px #bfbfbf; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms_border-radius:50%; display:inline-block; margin-bottom:60px; position:relative;}
+#app .content .item-content .r_out p {position:absolute; bottom:-50px; color:#666; text-align:center; margin:0 auto; width:100%; font-size:16px; line-height:1.5; font-weight:bold;}
+#app .content .item-content .r_in {width:160px; height:160px; border:3px solid #fff; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms_border-radius:50%; overflow:hidden; position:relative;}
+#app .content .item-content .r_c {width:160px;position:absolute; bottom:0; left:0; height:0;}
+#app .content .item-content .c1 {background: rgb(146, 163, 194);}
+#app .content .item-content .r_num {color:#466088; font-size:30px; line-height:1.5; font-weight:bold; position:absolute; top:50%; margin-top:-20px; text-align:center; width:100%;}
+/*右侧企业备注页*/
+#app .notepage .companyinfo{}
+#app .notepage form label{font-size: 18px;margin-top: 18px;}
+#app .notepage .recordbox{width: 100%;height: 260px;}
+#app .notepage .recordbox .recordlist{width: 80%;float: left;border-right: 3px solid #666;padding-right: 10px;}
+#app .notepage .recordbox .order{width: 20%;float: left;}
+#app .notepage .recordbox .order a{width: 40%;margin:10px 4%;padding-top:6px;padding-bottom: 6px;}
+
+.itemdetail tr th,.itemdetail tr td{text-align: center;}
+
+/*公司备注model*/
+#remarkModal>div{width: 90%;}
+#remarkModal .companyRemakeModel .modal-body>div:first-child{display: inline-block;width:38%;padding-right: 2%;border-right: 2px solid #666;}
+#remarkModal .companyRemakeModel .modal-body>div:last-child{display: inline-block;width:61%;padding-left: 1%;}
+#remarkModal .companyRemakeModel .modal-body .companyLinkman{max-height: 470px;overflow-y: auto;margin-bottom: 20px;}
+#remarkModal .companyRemakeModel .modal-body .companyLinkman table td{width: 20%;}
+#remarkModal .companyRemakeModel .modal-body .companyLinkman .editprebtn{display: none;}
+#remarkModal .companyRemakeModel .modal-body .companyLinkman .preList:hover .editprebtn{display: inline-block;}
+#remarkModal .companyRemakeModel .modal-body .editprebox{width: 100%;background: #ddd;padding: 6px 10px;box-shadow: 1px 1px 6px #666;}
+#remarkModal .companyRemakeModel .modal-body .editprebox span{display: inline-block;width: 70px;vertical-align: baseline;}
+#remarkModal .companyRemakeModel .modal-body .comInfo li{border-top: 1px solid #666;padding:4px 0;}
+#remarkModal .companyRemakeModel .modal-body .comInfo li span:first-child{display: inline-block;width: 20%;}
+#remarkModal .companyRemakeModel .modal-body .comInfo li span:last-child,
+#remarkModal .companyRemakeModel .modal-body .comInfo li textarea,
+#remarkModal .companyRemakeModel .modal-body .comInfo li input{display: inline-block;width: 80%;}
+#remarkModal .companyRemakeModel .modal-body .comInfo li textarea{max-width: 80%;}
+#remarkModal .companyRemakeModel .modal-body h3{display: inline-block;margin: 4px 0;}
+#remarkModal .companyRemakeModel .modal-body .editcombtn{float: right;}

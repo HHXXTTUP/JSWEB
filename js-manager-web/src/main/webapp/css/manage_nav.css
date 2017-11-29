@@ -1,0 +1,61 @@
+body,html{background: rgb(235,239,240);height: 100%;}
+#appnav{height: 100%;}
+/*头部*/
+/*头部结束*/
+/*左侧导航*/
+.leftmenubox{width: 256px;height: 100%;background:#fff;position: fixed;top: 0;left: -256px;z-index: 100}
+.leftmenubox .menushowbtn{width: 52px;height: 52px;position: absolute;top:0;right: -52px;background: rgb(58,194,148);padding: 16px}
+.leftmenubox .hidemenubox{position:absolute;right: 3px;width:40px;height:40px;cursor: pointer;
+	-webkit-transform-origin: 50% 50%;transform-origin:50% 50%;z-index: 10}
+.leftmenubox .hidemenubox:hover{transform: rotate(180deg);transition: transform .6s;}
+.leftmenubox .hidemenubox p{width: 4px;height: 32px;background: #fff;position: absolute;top: 10%;left: 44%;}
+.leftmenubox .hidemenubox p:first-child{transform: rotate(45deg);}
+.leftmenubox .hidemenubox p:last-child{transform: rotate(-45deg);}
+.menubox .quit{position: absolute;right: 4px;bottom: 4px;width: 60px;height: 26px;display:block;background: #2fd25a;border-radius: 3px;color: #fff;text-align: center;line-height: 26px;font-size: 16px;}
+.menubox{position: relative;}
+.menubox .headpic{width: 100%;height: 230px;background: url(../images/touxiangBG.png) no-repeat;display: flex;
+	flex-flow: column nowrap;align-items:center;}
+.menubox .headpic .headicon{width: 120px;height: 120px;margin-top:38px;}
+.menubox .headpic .name{margin-top:26px;color: #fff;font-size: 24px;}
+
+/*一级导航*/
+.stairnav>a,.stairnav .secondnav>a{display:block;width:100%;height:40px;color:#333;line-height:40px;font-size:18px;position: relative;}
+.stairnav>a>span{display:inline-block;width:6px;height:100%;margin-right: 20px;}
+.stairnav>a>i{display: inline-block;width: 16px;height: 16px;background-repeat: no-repeat;margin:12px 10px 0 0;}
+.stairnav>a>u,.stairnav .secondnav>a>u{display: inline-block;width: 14px;height: 14px;background-image:url(../images/sort_desc.png);
+	background-repeat: no-repeat;margin-left: 57px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);position: absolute;top: 12px;right: 30px;}
+/*.stairnav:first-child i{background-image: url(../images/ico-09.png);}
+.stairnav:nth-child(2) i{background-image: url(../images/ico-10.png);}
+.stairnav:nth-child(3) i{background-image: url(../images/ico-11.png);}*/
+.stairnav>.stairnavactive{background: #ddd}
+.stairnav .stairnavactive>span{background: rgb(52,183,139);}
+.stairnav .stairnavactive>u,.stairnav .secondnav .stairnavactive>u{transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+/*二级导航*/
+.stairnav .secondnav>a{display: inline-block;width:100%;height:40px;padding-left: 67px;line-height: 40px;color:#333;font-size: 14px;background: #fafafa}
+.stairnav .secondnav>a:hover{background: #f1f1f1}
+.stairnav .secondnav .stairnavactive:hover{background: rgb(52,183,139);}
+.stairnav .secondnav>a>u{margin-left: 63px}
+.stairnav .secondnav .stairnavactive{background: rgb(52,183,139);color:#fff;}
+/*三级导航*/
+.stairnav .secondnav .threenav>a{display: inline-block;width:100%;height:40px;padding-left: 80px;
+	line-height: 40px;color:#333;font-size: 14px;background: #fafafa}
+.stairnav .secondnav .threenav>a:hover{background: #f1f1f1}
+.stairnav .secondnav .threenav .threeactive{background: #f1f1f1;}
+/*左侧快捷功能*/
+.quickwaybox{width: 52px;height: 100%;background: rgb(41,47,63);position: fixed;top: 0;left: 0;z-index: 10;}
+.quickwaybox>div{display: flex;flex-flow: column nowrap;padding-top: 90px;}
+.quickwaybox>div>i{background:url(../images/icos-02.png);background-repeat: repeat;padding:10px;margin:16px auto;}
+.quickwaybox .quickbtn:nth-child(1){background-position: 0 0;width: 20px;height: 22px;}
+.quickwaybox .quickbtn:nth-child(2){background-position: -41px 0;width: 21px;height: 22px;}
+.quickwaybox .quickbtn:nth-child(3){background-position: -20px 0;width: 21px;height: 20px;}
+.quickwaybox .quickbtn:nth-child(4){background-position: -62px 0;width: 21px;height: 17px;}
+.quickwaybox .quickbtn:nth-child(5){background-position: -83px 0;width: 22px;height: 23px;}
+/*左侧快捷功能结束*/
+/*左侧导航结束*/
+/*右侧*/
+.rightbody{width: 100%;height:100%;padding-left: 56px;z-index: 10000}
+.rightbody iframe{width: 100%;height: 100%;}
+/*右侧结束*/
+/*遮罩层*/
+.mask{width:100%;height: 100%;position: fixed;background: #333;z-index: 99;opacity: .4;}
+/*遮罩层结束*/

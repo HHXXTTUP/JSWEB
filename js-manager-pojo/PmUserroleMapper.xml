@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.js.mapper.PmUserroleMapper" >
+  <resultMap id="BaseResultMap" type="com.js.pojo.PmUserrole" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="roleid" property="roleid" jdbcType="INTEGER" />
+    <result column="userinfoid" property="userinfoid" jdbcType="INTEGER" />
+    <result column="adduserid" property="adduserid" jdbcType="INTEGER" />
+    <result column="addueser" property="addueser" jdbcType="VARCHAR" />
+    <result column="addtime" property="addtime" jdbcType="TIMESTAMP" />
+    <result column="adduserIP" property="adduserIP" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, roleid, userinfoid, adduserid, addueser, addtime, adduserIP
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.js.pojo.PmUserroleExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from pm_userrole
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from pm_userrole
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from pm_userrole
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.js.pojo.PmUserroleExample" >
+    delete from pm_userrole
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.js.pojo.PmUserrole" >
+    insert into pm_userrole (id, roleid, userinfoid, 
+      adduserid, addueser, addtime, 
+      adduserIP)
+    values (#{id,jdbcType=INTEGER}, #{roleid,jdbcType=INTEGER}, #{userinfoid,jdbcType=INTEGER}, 
+      #{adduserid,jdbcType=INTEGER}, #{addueser,jdbcType=VARCHAR}, #{addtime,jdbcType=TIMESTAMP}, 
+      #{adduserIP,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.js.pojo.PmUserrole" >
+    insert into pm_userrole
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="roleid != null" >
+        roleid,
+      </if>
+      <if test="userinfoid != null" >
+        userinfoid,
+      </if>
+      <if test="adduserid != null" >
+        adduserid,
+      </if>
+      <if test="addueser != null" >
+        addueser,
+      </if>
+      <if test="addtime != null" >
+        addtime,
+      </if>
+      <if test="adduserIP != null" >
+        adduserIP,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="roleid != null" >
+        #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="userinfoid != null" >
+        #{userinfoid,jdbcType=INTEGER},
+      </if>
+      <if test="adduserid != null" >
+        #{adduserid,jdbcType=INTEGER},
+      </if>
+      <if test="addueser != null" >
+        #{addueser,jdbcType=VARCHAR},
+      </if>
+      <if test="addtime != null" >
+        #{addtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="adduserIP != null" >
+        #{adduserIP,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.js.pojo.PmUserroleExample" resultType="java.lang.Integer" >
+    select count(*) from pm_userrole
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update pm_userrole
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.roleid != null" >
+        roleid = #{record.roleid,jdbcType=INTEGER},
+      </if>
+      <if test="record.userinfoid != null" >
+        userinfoid = #{record.userinfoid,jdbcType=INTEGER},
+      </if>
+      <if test="record.adduserid != null" >
+        adduserid = #{record.adduserid,jdbcType=INTEGER},
+      </if>
+      <if test="record.addueser != null" >
+        addueser = #{record.addueser,jdbcType=VARCHAR},
+      </if>
+      <if test="record.addtime != null" >
+        addtime = #{record.addtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.adduserIP != null" >
+        adduserIP = #{record.adduserIP,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update pm_userrole
+    set id = #{record.id,jdbcType=INTEGER},
+      roleid = #{record.roleid,jdbcType=INTEGER},
+      userinfoid = #{record.userinfoid,jdbcType=INTEGER},
+      adduserid = #{record.adduserid,jdbcType=INTEGER},
+      addueser = #{record.addueser,jdbcType=VARCHAR},
+      addtime = #{record.addtime,jdbcType=TIMESTAMP},
+      adduserIP = #{record.adduserIP,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.js.pojo.PmUserrole" >
+    update pm_userrole
+    <set >
+      <if test="roleid != null" >
+        roleid = #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="userinfoid != null" >
+        userinfoid = #{userinfoid,jdbcType=INTEGER},
+      </if>
+      <if test="adduserid != null" >
+        adduserid = #{adduserid,jdbcType=INTEGER},
+      </if>
+      <if test="addueser != null" >
+        addueser = #{addueser,jdbcType=VARCHAR},
+      </if>
+      <if test="addtime != null" >
+        addtime = #{addtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="adduserIP != null" >
+        adduserIP = #{adduserIP,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.js.pojo.PmUserrole" >
+    update pm_userrole
+    set roleid = #{roleid,jdbcType=INTEGER},
+      userinfoid = #{userinfoid,jdbcType=INTEGER},
+      adduserid = #{adduserid,jdbcType=INTEGER},
+      addueser = #{addueser,jdbcType=VARCHAR},
+      addtime = #{addtime,jdbcType=TIMESTAMP},
+      adduserIP = #{adduserIP,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

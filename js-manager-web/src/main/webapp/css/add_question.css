@@ -1,0 +1,14 @@
+@media screen and (min-width: 1178px){#app{padding:10px 40px;}}
+@media screen and (max-width: 1177px){#app{padding:10px 10px;}}
+.marginbottom{margin-bottom: 10px;}
+.contentbody{border:1px solid #ddd	;}
+.contentbody>h3{color: green;padding: 8px 14px;font-size: 14px;background: #f3f3f3;display: flex;flex-flow: row nowrap;justify-content:space-between;
+	margin-top: 0;margin-bottom: 0;border-bottom: 1px solid #ddd}
+.contentbody>h3 span:nth-child(1){line-height: 16px;margin-top: 3px;}
+.contentbody>h3 span:nth-child(2){background: green;color: #fff;padding:3px 6px;border-radius: 6px;}
+
+.boxed-inner .control-group .controls{display: inline-block;}
+.boxed-inner .control-group{height:42px;padding: 8px 10px;}
+.boxed-inner .control-group:hover{background: #f3f3f3}
+.boxed-inner .control-group label{width: 100px;text-align: right;margin-right: 14px;line-height: 27px;}
+.control-group .controls input{border-radius: 4px;}

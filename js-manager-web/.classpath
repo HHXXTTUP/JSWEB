@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/aop/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/AR架包/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/asm-commons-3.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/asm-tree-3.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/ecj-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/mybatis-3.2.5.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/mybatis-spring-1.2.0.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/quartz-2.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-aop-3.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-aspects-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-context-support-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-jdbc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-orm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-tx-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-web-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/spring-webmvc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/standard.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="F:/js-tomcat7/apache-tomcat-7.0.52/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/asm-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/asm-commons-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/asm-tree-3.3.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/mybatis-3.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/mybatis-spring-1.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/mysql.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/quartz-2.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-aspects-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-context-support-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-jdbc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-orm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-tx-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-web-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/spring-webmvc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/li/Ren_GX/WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/commons-lang.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/commons-logging.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/js-jar/arrylist/json-lib-2.2.2-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/jar/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/StuDemo/json/json/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/json/guayu/跨域jar/cors-filter-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/json/guayu/跨域jar/java-property-utils-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/json/sun.misc.BASE64Decoder.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/java/alljar/msbase.jar"/>
+	<classpathentry kind="lib" path="D:/java/alljar/mssqlserver.jar"/>
+	<classpathentry kind="lib" path="D:/java/alljar/msutil.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
